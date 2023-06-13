@@ -1,0 +1,90 @@
+body{
+    background: rgb(244, 85, 117);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.menu{
+    display:list-item;
+    width: 80rem;
+    margin: 5%;
+    background: rgb(252, 251, 251);
+    border-radius: 30px;
+}
+.menuCard{
+    justify-content: space-between;
+    position:static;
+    height: 17rem;
+    width: 25rem;
+    border-style: hidden;
+    margin: 3%;
+    display: flex;
+    background-color: rgb(235, 234, 234);
+}
+.menuCard:hover{
+    background-color: white;
+
+    transition: all 0.5s ease;
+}
+.left{
+    height: 17rem;
+    width: 60%;
+    /* background: rgb(249, 247, 247); */
+    border-style:hidden;  
+
+}
+.left-img{
+    margin: 20%;
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+
+}
+.left-img img{
+   
+    height: 10rem;
+    width: 10rem;
+}
+.left-img button{
+    margin-top: 1rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 7rem;
+    height: 2rem;
+    color:rgb(12, 12, 12);
+    background: #e6a61d;
+    border: hidden; 
+}
+.right{
+   align-items: center; 
+   justify-content: center;
+   display: flex;
+   padding:1rem;
+
+}
+.right h4{
+    padding: 0;
+    font-size: 18px;
+    color: rgb(125, 137, 146);
+}
+.right p{
+    padding: 0;
+    font-size: 13px;
+    color: rgb(127, 128, 130);
+}
+.right button{
+    /* margin-right: 3rem; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 7rem;
+    height: 2rem;
+    color:rgb(12, 12, 12);
+    background: #e6a61d;
+    border: hidden;
+}
+.right h3{
+    font-size: 30px;
+}
+button:hover{
+    color:white;
+    background-color: black;
+    transition: all 1s ease;
+}
